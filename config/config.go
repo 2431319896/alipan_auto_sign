@@ -11,11 +11,11 @@ var ConfigInstance Config
 var UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0"
 
 type Config struct {
-	PushPlusToken  string `yaml:"pushplus_token"`
-	RefreshToken   string `yaml:"refresh_token"`
-	BilibiliCookie string `yaml:"bilibili_cookie"`
-	KKCookie       string `yaml:"kk_cookie"`
-	JdCookie       string `yaml:"jd_cookie"`
+	PushPlusToken  string `yaml:"31a67078489845d481967e5c3d4f3ef8"`
+	RefreshToken   string `yaml:"a18899a26f9d4e609758b0f0e4b19517"`
+	BilibiliCookie string `yaml:"26b5bcbf%2C1761699093%2C30cbe%2A51CjBaTmabXQbrzK6h5ycYaBq01Q1pjqM8fxEkf4wy4hWGWWTPwkux0ShMZIE4jyLfqPMSVjZZd0NIWGtvNl9XVTd2V19KNFpFd21QeS0yWjNYZXVKa2Vkb2JMQVVVUFJVa3lLZnlBY0J4YXhiVC0tcU9LWjRtMDRLamlVQjBCMVBLcy1Cb2l4THVnIIEC"`
+	KKCookie       string `yaml:"CwsSessionId=666723c6-4da4-4bc9-84d8-522697aaa11f; b-user-id=3d6ca837-7ee4-d90d-7526-ea161a6cc59f; __sdid=AARvJzn5bv1gTIOBC1k55NObOdtnu4N/F3nYK+z7vrshzDbTmGJ8Jeel7NU/l47MN2M=; _UP_A4A_11_=wb9c912d62ca4aacb732c555b13050d5; isg=BMzMtkAUyAdsStz77HkMCTxQnSr-BXCvWLFZLyaNUHcasW27ThENP15CVbmJ-agH; _UP_F7E_8D_=nrX2IYhU6dJH0MzAAiPIoUsem8D%2BGJzLUdRO7YsGUI%2BibipNZ4wWoKA3nkVDHeUjK77U6xYgqMbXDik4ZZxmO%2B6jibaMeh%2F15GPrrCl5M87ivs0EP%2FjAQTQimMgEdat62Byd22%2BZGM60idAKs1gOFCQR9L8uz05%2F4dnjse%2B2%2BrbAu1yFnsYfYpkeu7XFGZeSw6qaODb68LavZoFfOls92fMZ1qJrRzBteAnmsHKbqWtGaQvvKmNn292V0G8Hu2tUwfciFhKhTDYBhMXt42IX5T0OABK9vhV%2B%2Biyn4QWXu%2BfLRM2xxJkw6XwNx%2BLGXCRhOnBIJjjnrh8cYD1zLEqy17ekFFQtJNHwljufc%2FrNRhob6h8YLOwy6Xc0ZjrCXqUEhJgnZxINLXTQeOqFvcVxa4vBJJJ28YPE; _UP_D_=pc; __pus=1d0882ee25c4c02be79b761d8cacfeffAASBHxKBYQeyAQd5tWtRr0OXdsByOU5GzcesvT+6geRVaHFSubJ4ew9W8+jzl5mwuZAofeknn1gXPUtxF+Rr44Tc; __kp=81cd6080-3076-11f0-93c7-8122eb38ee59; __kps=AATZ9C7xnR35IjXE2V2SkgMt; __ktd=fVWGt5AF+CLX+ocwYoGREg==; __uid=AATZ9C7xnR35IjXE2V2SkgMt; __puus=e3c66dcd056afbbfbe98ba8d3cdda8e4AARZ82gsyuU4K+KweQeMOG0NVLcfZ1nPBTrZANTXXUGloSfc51RydKWdN7FkQoy1JoelJWfJq9Q/GoT30o4u3QV7z7lKGdX/BBrdRzOpA5lfGAcSKU0wGpR3x4F4wqeOcpZy1TZOOlOrW4WLMtPIHiAH6i2odh5A15gp6x7xLGVzuSK8hFA1ECxEQDyQCSiJWAMYib/UHeWv+FFuVaGWNI9P"`
+	JdCookie       string `yaml:"3AB9D23F7A4B3C9B=CXIK25DXLUXHPN5LVXJAIOFA55RKLNO4NZN3MWUIUENJYTJ7QHRM7UFXBWJ32CI6OT3F3RGXTOJKSJYBQWGIQN4FYE; shshshfpa=856884f3-1811-1c6f-8518-853d116a3f12-1731336168; shshshfpx=856884f3-1811-1c6f-8518-853d116a3f12-1731336168; wxa_level=1; retina=0; cid=9; jxsid=17471961111753069749; appCode=ms0ca95114; webp=1; __jda=122270672.17471961112281823312334.1747196111.1747196111.1747196111.1; __jdv=122270672%7Cdirect%7C-%7Cnone%7C-%7C1747196111229; __jdc=122270672; mba_muid=17471961112281823312334; visitkey=6989368420766109378; cd_eid=jdd03CXIK25DXLUXHPN5LVXJAIOFA55RKLNO4NZN3MWUIUENJYTJ7QHRM7UFXBWJ32CI6OT3F3RGXTOJKSJYBQWGIQN4FYEAAAAMWZUAOLDQAAAAACCNNRFVB3LRNWAX; PPRD_P=UUID.17471961112281823312334; sc_width=1536; shshshfpb=BApXSaPMJzvNAnirj6lby2zfR7EqqrI7IBnNyZkdp9xJ1MlUsL4G2; jcap_dvzw_fp=Vx_Z4Mg82dsXVB-xVCvICDzBLaKuBo6srvpkmZMNk5tXz1V-Z6UPfKD9KI4Q0H1apnZkcih7W-0UeV0j7D8G7w==; TrackerID=njwFrLaHVAfFNorHboDA0cqMkjyHTShCNZQb9ixOuhWMdEeyxFa9zTXFkPnTJQKnKcPcK8yPypaSlUsl1An4iIV2sXKTIusZj-OyHVEU7TE; pt_key=AAJoJBkAADCLjfSKEQp0fcnKJPQ31mqKC9ARkPkIk8G5q2sjWoTBdwboAZ3N3FZV9vQy-7u4WCc; pt_pin=jd_53c7b902f4acb; pt_st=1_dvEkUMv0M4bUuXUhtZ-27jfychUFgmrtMA0z3WkamhobNDB33ZepKIegvR8lPkmDPMSYjgcRqtkO8hRkNUeeGPl097aPQcXd7O13HZOlL3n6uAEU6HqGvLcDiUaD8dtifFiHasmVYUQ1-hBDSyi7E9FeSyupRbrUdtLIQ5GNuEDkY245B_K-8jMgb1gbSQRxDkPJTHcBYkbvKqOU8w1ldh5ZbLxHTEN4hubwyjPu; pt_token=6jjbzgo6; pwdt_id=jd_53c7b902f4acb; sfstoken=tk01mdea21d14a8sMysyeDErMngzt8VXOKUuY5ZvndK9CqQ+iI9i2hvA5nKAROZUlN9wiIddaQvJiOgg+scVGvKwVa/N; whwswswws=; autoOpenApp_downCloseDate_jd_homePage=1747196225755_1; jxsid_s_u=https%3A//my.m.jd.com/index.html; wqmnx1=MDEyNjM2NHMuY2RtbjJjPTY4NjhsIG8gIDsgVy82TWtrcjIuYTcxc2RhMjJPRCkmSA%3D%3D; 3AB9D23F7A4B3CSS=jdd03CXIK25DXLUXHPN5LVXJAIOFA55RKLNO4NZN3MWUIUENJYTJ7QHRM7UFXBWJ32CI6OT3F3RGXTOJKSJYBQWGIQN4FYEAAAAMWZUBUFRQAAAAADLCLXGBOM7WJMYX; _gia_d=1; __jdb=122270672.16.17471961112281823312334|1.1747196111; jxsid_s_t=1747196266456; mba_sid=17471961112291638768194.20; sdtoken=AAbEsBpEIOVjqTAKCQtvQu17ys4jPXRgflU0m_mOab9-fjpXxZropWn7u_zSh-vfLaedD3970QQKXe5lgwT91scjc0bO2_wEAfSXuCWSrVB3i-sSjLfBipRXM7znHTXZIaI; __jd_ref_cls=MCommonBottom_My"`
 }
 
 func init() {
@@ -24,7 +24,7 @@ func init() {
 
 func LoadConfig() {
 	confFIle, err := os.ReadFile("./config.yaml")
-	if err != nil {
+	if err != nil {			
 		panic(err.Error())
 	}
 	config := Config{}
